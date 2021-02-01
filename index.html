@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="body">
+        <input  disabled = "true" id="input">
+        <button id="block0" onclick='clicked(0)'>0</button>
+        <button id="block1" onclick='clicked(1)'>1</button>
+        <button id="block2" onclick='clicked(2)'>2</button>
+        <button id="block3" onclick='clicked(3)'>3</button>
+        <button id="block4" onclick='clicked(4)'>4</button>
+        <button id="block5" onclick='clicked(5)'>5</button>
+        <button id="block6" onclick='clicked(6)'>6</button>
+        <button id="block7" onclick='clicked(7)'>7</button>
+        <button id="block8" onclick='clicked(8)'>8</button>
+        <button id="block9" onclick='clicked(9)'>9</button>
+        <button id="dot" onclick='clicked(".")'>.</button>
+        <button id="plus" onclick='clicked("+")'>+</button>
+        <button id="minus" onclick='clicked("-")'>-</button>
+        <button id="multiply" onclick='clicked("*")'>*</button>
+        <button id="divide" onclick='clicked("/")'>/</button>
+    </div>
+    <div>
+        <button id="ans" onclick="calculate()">Answer</button>
+        <button id="clr" onclick="reset()">Clear</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
